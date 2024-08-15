@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Playfair Display", serif;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.banner-part{
+    margin-top: 150px;
+}
+
+.banner-text h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.banner-text h5{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #242429;
+}
+
+.banner-text p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #242429;
+    font-weight: 400;
+    font-family: none;
+}
+
+.about-part{
+    margin-top: 180px;
+}
+
+.about-part h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.about-part p{
+    font-family: none;
+    font-size: 18px;
+    color: #888888;
+
+}
+
+.feature-part{
+    margin-top: 120px;
+}
+
+.feature-part h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #242429;
+}
+
+.feature-part h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.feature-part p{
+    color: #7f7f7f;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+
+.department-part{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.department-part h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0d1820;
+}
+
+.department-part h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.department-part p{
+    color: #7f7f7f;
+    font-size: 18px;
+}
+
+.doctor-part{
+    margin-top: 100px;
+}
+
+.doctor-part h2{
+    font-size: 45px;
+    color: #242429;
+    font-weight: 600;
+}
+
+.doctor-part p{
+    color: #7f7f7f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.doctor-part h3{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.form-part{
+    color: #0d1820;
+    margin-top: 120px;
+    background-color: whitesmoke;
+     padding: 30px 0px;
+}
+
+.form-part h2{
+    padding-top: 50px;
+    font-size: 48px;
+    color: #0d1820;
+    font-weight: 700;
+}
+
+
+.blog-part{
+    margin-top: 100px;
+}
+
+.blog-part h2{
+    font-size: 50px;
+    color: #242429;
+    font-weight: 700;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: 400px;
+    padding-top: 100px;
+    text-decoration: none;
+}
+
+.footer i{
+    font-size: 1.5rem;
+}
+
+.footer h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0d1820;
+}
+
+.footer p{
+    color: #242429;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.last-line{
+    background-color: #0d1820;
+    color: white;
+    height: 80px;
+}
