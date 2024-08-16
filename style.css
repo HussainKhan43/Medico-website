@@ -173,9 +173,53 @@
     height: 80px;
 }
 
+h2:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+
+h4:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+h1:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+h3:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+h5:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.one:hover{
+    background-color: #007bff;
+    color: black;
+}
+.two:hover{
+    background-color: #007bff;
+    color: black;
+}
+.three:hover{
+    background-color: #007bff;
+    color: black;
+}
+.four:hover{
+    background-color: #007bff;
+    color: black;
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
     .last-line{
         margin-top: 520px;
+    }
+    .doctor-part img{
+        width: 100%;
     }
 }
