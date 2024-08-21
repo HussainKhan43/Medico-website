@@ -5,10 +5,11 @@
 }
 
 
-.navbar {
+.nav-bar {
     position: sticky;
     top: 0px;
     z-index: 1;
+    
 }
 
 .banner-part{
@@ -223,3 +224,25 @@ h5:hover{
         width: 100%;
     }
 }
+
+/* Target iPads in portrait orientation */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .doctor-part img{
+        width: 100%;
+    }
+    .last-line{
+        margin-top: 520px;
+    }
+    .doctor-part h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .doctor-part p {
+        color: #7f7f7f;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+
