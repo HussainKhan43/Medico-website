@@ -4,6 +4,15 @@
     font-family: "Playfair Display", serif;
 }
 
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
 
 .nav-bar {
     position: sticky;
