@@ -1,22 +1,17 @@
-
-let modebtn = document.getElementById("modebtn");
-let body = document.getElementsByTagName("body")[0];
-
 let currmode = "light"; 
 
-modebtn.addEventListener("click", () => {
+$("#modebtn").on("click", function() {
     if (currmode === "light") {
         currmode = "dark";
-        body.classList.add("dark");
-        body.classList.remove("light");
+        $("body").addClass("dark").removeClass("light");
     } else {
         currmode = "light";
-        body.classList.add("light");
-        body.classList.remove("dark");
+        $("body").addClass("light").removeClass("dark");
     }
 
     console.log(currmode);
 });
+
 
 
 function data() {
