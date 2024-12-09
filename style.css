@@ -177,6 +177,10 @@
     font-weight: 400;
 }
 
+li{
+    list-style-type: none;
+}
+
 .last-line{
     background-color: #0d1820;
     color: white;
